@@ -1,0 +1,192 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+   background-color: #1B244A;
+    
+}
+.words {
+    font-style: verdna;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.container {
+    
+    display: flex;
+    justify-content:space-around;
+}
+
+.board {
+    display: flex;
+    justify-content:space-around;
+}
+.homescore {
+    
+    width: 350px;
+    height: 200px;
+    background-color: #080001;
+    
+}
+.guestscore {
+    
+    
+    width: 350px;
+    height: 200px;
+    background-color: #080001;
+    
+
+}
+
+#homescore-update {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 160;
+    color: #F94F6D;
+}
+
+#guestscore-update {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 160;
+    color: #F94F6D;
+
+}
+
+.points {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+
+}
+
+.addingpoints {
+    display: flex;
+    justify-content: space-between;
+    font-family: myFirstFont;
+    color: #9AABD8;
+    width: 350px;
+}
+
+#homeonepoint {
+   border: solid;
+   background-color: #1B244A;
+   border-color: #9AABD8 ;
+   border-radius: 5px;
+   color: #9AABD8 ;
+   font-size: 30px;
+   padding: 10px;
+   width: 75px;    
+}
+
+#hometwopoint {
+    border: solid;
+    background-color: #1B244A;
+    border-color: #9AABD8 ;
+    border-radius: 5px;
+    color: #9AABD8 ;
+    font-size: 30px;
+    padding: 10px;
+    width: 75px;     
+ }
+
+ #homethreepoint {
+    border: solid;
+   background-color: #1B244A;
+   border-color: #9AABD8 ;
+   border-radius: 5px;
+   color: #9AABD8 ;
+   font-size: 30px;
+   padding: 10px;
+   width: 75px; 
+ }
+
+ #guestonepoint {
+    border: solid;
+    background-color: #1B244A;
+    border-color: #9AABD8 ;
+    border-radius: 5px;
+    color: #9AABD8 ;
+    font-size: 30px;
+    padding: 10px;
+    width: 75px; 
+
+    
+ }
+
+#guesttwopoint {
+    border: solid;
+    background-color: #1B244A;
+    border-color: #9AABD8 ;
+    border-radius: 5px;
+    color: #9AABD8 ;
+    font-size: 30px;
+    padding: 10px;
+    width: 75px; 
+}
+
+#guestthreepoint {
+    border: solid;
+    background-color: #1B244A;
+    border-color: #9AABD8 ;
+    border-radius: 5px;
+    color: #9AABD8 ;
+    font-size: 30px;
+    padding: 10px;
+    width: 75px; 
+}
+
+#homeonepoint:hover {
+  
+  background-color: #152c6c
+    
+}
+#hometwopoint:hover {
+
+    background-color: #152c6c
+}
+#homethreepoint:hover {
+    background-color: #152c6c
+}
+
+#guestonepoint:hover {
+    background-color: #152c6c
+}
+#guesttwopoint:hover {
+    background-color: #152c6c
+}
+#guestthreepoint:hover {
+    background-color: #152c6c
+}
+
+#homeonepoint:active {
+  
+    background-color: #1B244A
+      
+  }
+  #hometwopoint:active {
+  
+    background-color: #1B244A
+  }
+  #homethreepoint:active {
+    background-color: #1B244A
+  }
+  
+  #guestonepoint:active {
+      background-color: #1B244A
+  }
+  #guesttwopoint:active {
+      background-color: #1B244A
+  }
+  #guestthreepoint:active {
+      background-color: #1B244A
+  }

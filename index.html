@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <!-- Team SECTION -->
+        <div class="container">
+            <div>
+                <h3 class="words">HOME</h3>
+            </div>
+            <div>
+                <h3 class="words">GUEST</h3>
+            </div>
+        </div>
+<!-- Score SECTION -->
+<div class="board">
+<div class="homescore">
+    <h3 id="homescore-update">0</h3>
+</div>
+<div class="guestscore">
+    <h3 id="guestscore-update">0</h3>
+</div>
+</div>
+<!-- Adding Points SECTION -->
+<div class="points">
+    <div class="addingpoints">
+    <button id="homeonepoint" onclick="addOnePointH()">+1</button>
+    <button id="hometwopoint" onclick="addTwoPointH()">+2</button>
+    <button id="homethreepoint" onclick="addThreePointH()">+3</button>
+    </div>
+    <div class="addingpoints">
+    <button id="guestonepoint" onclick="addOnePointG()">+1</button>
+    <button id="guesttwopoint" onclick="addTwoPointG()">+2</button>
+    <button id="guestthreepoint" onclick="addThreePointG()">+3</button>
+    </div>
+</div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
